@@ -1,0 +1,32 @@
+{
+  "name": "projeto_chat_nodejs_web_socket_nlw5",
+  "version": "1.0.0",
+  "description": "Criação de um projeto de um chat com NodeJS e Web Socket",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMelloo/projeto_chat_nodejs_web_socket_nlw5.git"
+  },
+  "author": "Leandro Mello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroMelloo/projeto_chat_nodejs_web_socket_nlw5/issues"
+  },
+  "homepage": "https://github.com/LeandroMelloo/projeto_chat_nodejs_web_socket_nlw5#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.32"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
